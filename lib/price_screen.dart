@@ -74,6 +74,7 @@ class _PriceScreenState extends State<PriceScreen> {
     getData();
   }
 
+//const List<String> cryptoList = ['BTC', 'ETH', 'LTC'];
   Column makeCards() {
     List<CryptoCard> cryptoCards = [];
     for (String crypto in cryptoList) {
